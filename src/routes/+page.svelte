@@ -2,8 +2,9 @@
 	import { Protocol, PMTiles } from 'pmtiles';
 	import maplibregl from 'maplibre-gl';
 	import { onMount } from 'svelte';
+	import layers from 'protomaps-themes-base';
 
-	const PMTILES_URL = 'https://pmtiles.io/protomaps(vector)ODbL_firenze.pmtiles';
+	const PMTILES_URL = 'https://pub-d38145745fe247a1b3acb61ef28034c6.r2.dev/peru.pmtiles';
 
 	let protocol = new Protocol();
 	maplibregl.addProtocol('pmtiles', protocol.tile);
@@ -15,46 +16,20 @@
 		p.getHeader().then((h) => {
 			const map = new maplibregl.Map({
 				container: 'map',
-				zoom: h.maxZoom - 2,
+				zoom: 5,
 				center: [h.centerLon, h.centerLat],
 				style: {
 					version: 8,
+					glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
+					sprite: 'https://protomaps.github.io/basemaps-assets/sprites/v3/dark',
 					sources: {
-						example_source: {
+						protomaps: {
 							type: 'vector',
 							url: `pmtiles://${PMTILES_URL}`,
 							attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>'
 						}
 					},
-					layers: [
-						{
-							id: 'buildings',
-							source: 'example_source',
-							'source-layer': 'landuse',
-							type: 'fill',
-							paint: {
-								'fill-color': 'steelblue'
-							}
-						},
-						{
-							id: 'roads',
-							source: 'example_source',
-							'source-layer': 'roads',
-							type: 'line',
-							paint: {
-								'line-color': 'black'
-							}
-						},
-						{
-							id: 'mask',
-							source: 'example_source',
-							'source-layer': 'mask',
-							type: 'fill',
-							paint: {
-								'fill-color': 'white'
-							}
-						}
-					]
+					layers: layers('protomaps', 'light')
 				}
 			});
 		});
