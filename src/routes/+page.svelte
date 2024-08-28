@@ -2,7 +2,9 @@
 	import { Protocol, PMTiles } from 'pmtiles';
 	import maplibregl from 'maplibre-gl';
 	import { onMount } from 'svelte';
-	import layers from 'protomaps-themes-base';
+	import { base } from '$app/paths';
+
+	const mapstyle = `${base}/data/mapstyle.json`;
 
 	const PMTILES_URL = 'https://pub-d38145745fe247a1b3acb61ef28034c6.r2.dev/peru.pmtiles';
 
@@ -18,19 +20,7 @@
 				container: 'map',
 				zoom: 5,
 				center: [h.centerLon, h.centerLat],
-				style: {
-					version: 8,
-					glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
-					sprite: 'https://protomaps.github.io/basemaps-assets/sprites/v3/dark',
-					sources: {
-						protomaps: {
-							type: 'vector',
-							url: `pmtiles://${PMTILES_URL}`,
-							attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>'
-						}
-					},
-					layers: layers('protomaps', 'light')
-				}
+				style: mapstyle
 			});
 		});
 	});
