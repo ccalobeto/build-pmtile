@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 
-	const mapstyle = `${base}/data/mapstyle.json`;
+	const style = `${base}/data/styles/grayscale.json`;
 
 	const PMTILES_URL = 'https://pub-d38145745fe247a1b3acb61ef28034c6.r2.dev/peru.pmtiles';
 
@@ -15,12 +15,13 @@
 	protocol.add(p);
 
 	onMount(() => {
+		const initialize = { lng: -77.03778, lat: -12.06649, zoom: 13.5 };
 		p.getHeader().then((h) => {
 			const map = new maplibregl.Map({
 				container: 'map',
-				zoom: 5,
-				center: [h.centerLon, h.centerLat],
-				style: mapstyle
+				zoom: initialize.zoom,
+				center: [initialize.lng, initialize.lat],
+				style: style
 			});
 		});
 	});

@@ -1,7 +1,5 @@
 {
   "version": 8,
-  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
-  "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v3/dark",
   "sources": {
     "protomaps": {
       "type": "vector",
@@ -14,7 +12,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#cccccc"
+        "background-color": "#a3a3a3"
       }
     },
     {
@@ -23,7 +21,7 @@
       "source": "protomaps",
       "source-layer": "earth",
       "paint": {
-        "fill-color": "#e0e0e0"
+        "fill-color": "#cccccc"
       }
     },
     {
@@ -55,9 +53,9 @@
             "zoom"
           ],
           0,
-          "#cfddd5",
+          "#c2c2c2",
           12,
-          "#9cd3b4"
+          "#c2c2c2"
         ]
       }
     },
@@ -77,7 +75,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#9cd3b4",
+        "fill-color": "#c2c2c2",
         "fill-opacity": 0.7
       }
     },
@@ -95,7 +93,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#e4dad9"
+        "fill-color": "#d0d0d0"
       }
     },
     {
@@ -112,7 +110,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#d1dde1"
+        "fill-color": "#c6c6c6"
       }
     },
     {
@@ -131,7 +129,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#e4ded7"
+        "fill-color": "#d0d0d0"
       }
     },
     {
@@ -148,7 +146,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#e8e4d0"
+        "fill-color": "#d2d2d2"
       }
     },
     {
@@ -165,7 +163,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#c6dcdc"
+        "fill-color": "#c7c7c7"
       }
     },
     {
@@ -184,7 +182,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#c6dcdc"
+        "fill-color": "#c7c7c7"
       }
     },
     {
@@ -212,9 +210,9 @@
             "zoom"
           ],
           0,
-          "#d0ded0",
+          "#c2c2c2",
           12,
-          "#a0d9a0"
+          "#c2c2c2"
         ]
       }
     },
@@ -240,9 +238,9 @@
             "zoom"
           ],
           0,
-          "#cedcd7",
+          "#c2c2c2",
           12,
-          "#99d2bb"
+          "#c2c2c2"
         ]
       }
     },
@@ -257,7 +255,7 @@
         "glacier"
       ],
       "paint": {
-        "fill-color": "#e7e7e7"
+        "fill-color": "#d2d2d2"
       }
     },
     {
@@ -271,7 +269,7 @@
         "sand"
       ],
       "paint": {
-        "fill-color": "#e2e0d7"
+        "fill-color": "#d2d2d2"
       }
     },
     {
@@ -288,7 +286,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#dadbdf"
+        "fill-color": "#c9c9c9"
       }
     },
     {
@@ -305,7 +303,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e9e9ed",
+        "line-color": "#f5f5f5",
         "line-width": [
           "interpolate",
           [
@@ -339,7 +337,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e9e9ed",
+        "line-color": "#f5f5f5",
         "line-width": [
           "interpolate",
           [
@@ -364,7 +362,7 @@
       "source": "protomaps",
       "source-layer": "water",
       "paint": {
-        "fill-color": "#80deea"
+        "fill-color": "#a3a3a3"
       }
     },
     {
@@ -382,7 +380,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#80deea",
+        "line-color": "#a3a3a3",
         "line-width": 0.5
       }
     },
@@ -401,7 +399,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#80deea",
+        "line-color": "#a3a3a3",
         "line-width": [
           "interpolate",
           [
@@ -434,7 +432,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#e3e0d4"
+        "fill-color": "#c4c4c4"
       }
     },
     {
@@ -451,7 +449,7 @@
         ]
       ],
       "paint": {
-        "fill-color": "#e0e0e0"
+        "fill-color": "#b8b8b8"
       }
     },
     {
@@ -474,7 +472,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-gap-width": [
           "interpolate",
           [
@@ -510,7 +508,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-dasharray": [
           3,
           2
@@ -568,7 +566,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-dasharray": [
           3,
           2
@@ -624,7 +622,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-dasharray": [
           3,
           2
@@ -680,7 +678,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-dasharray": [
           3,
           2
@@ -741,7 +739,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-dasharray": [
           6,
           0.5
@@ -800,7 +798,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#d5d5d5",
+        "line-color": "#d6d6d6",
         "line-dasharray": [
           4.5,
           0.5
@@ -840,7 +838,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#d5d5d5",
+        "line-color": "#d6d6d6",
         "line-width": [
           "interpolate",
           [
@@ -880,7 +878,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#d5d5d5",
+        "line-color": "#d6d6d6",
         "line-width": [
           "interpolate",
           [
@@ -918,7 +916,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#d5d5d5",
+        "line-color": "#d6d6d6",
         "line-width": [
           "interpolate",
           [
@@ -958,7 +956,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#d5d5d5",
+        "line-color": "#d6d6d6",
         "line-width": [
           "interpolate",
           [
@@ -1003,7 +1001,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#d5d5d5",
+        "line-color": "#d6d6d6",
         "line-width": [
           "interpolate",
           [
@@ -1032,7 +1030,7 @@
       "source": "protomaps",
       "source-layer": "buildings",
       "paint": {
-        "fill-color": "#cccccc",
+        "fill-color": "#e0e0e0",
         "fill-opacity": 0.5
       }
     },
@@ -1050,7 +1048,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#b8b8b8",
         "line-width": [
           "interpolate",
           [
@@ -1094,7 +1092,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1149,7 +1147,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1199,7 +1197,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1251,7 +1249,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1306,7 +1304,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1366,7 +1364,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1421,7 +1419,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ebebeb",
+        "line-color": "#e0e0e0",
         "line-dasharray": [
           3,
           1
@@ -1456,7 +1454,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -1499,7 +1497,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ebebeb",
+        "line-color": "#e0e0e0",
         "line-width": [
           "interpolate",
           [
@@ -1552,7 +1550,7 @@
           11,
           "#ebebeb",
           16,
-          "#ffffff"
+          "#e0e0e0"
         ],
         "line-width": [
           "interpolate",
@@ -1593,7 +1591,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#f5f5f5",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -1634,7 +1632,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1686,7 +1684,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -1732,7 +1730,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1789,7 +1787,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -1831,7 +1829,7 @@
           0.75
         ],
         "line-opacity": 0.5,
-        "line-color": "#a7b1b3",
+        "line-color": "#f5f5f5",
         "line-width": [
           "interpolate",
           [
@@ -1861,7 +1859,7 @@
         2
       ],
       "paint": {
-        "line-color": "#adadad",
+        "line-color": "#5c5c5c",
         "line-width": 1,
         "line-dasharray": [
           3,
@@ -1880,7 +1878,7 @@
         2
       ],
       "paint": {
-        "line-color": "#adadad",
+        "line-color": "#5c5c5c",
         "line-width": 0.5,
         "line-dasharray": [
           3,
@@ -1909,7 +1907,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1946,7 +1944,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -1999,7 +1997,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -2054,7 +2052,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -2109,7 +2107,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -2163,7 +2161,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ebebeb",
+        "line-color": "#e0e0e0",
         "line-dasharray": [
           2,
           1
@@ -2204,7 +2202,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#e0e0e0",
         "line-width": [
           "interpolate",
           [
@@ -2245,7 +2243,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#e0e0e0",
         "line-width": [
           "interpolate",
           [
@@ -2284,7 +2282,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#f0eded",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -2325,7 +2323,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#f5f5f5",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -2371,7 +2369,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#e0e0e0",
+        "line-color": "#cccccc",
         "line-gap-width": [
           "interpolate",
           [
@@ -2430,7 +2428,7 @@
         ]
       ],
       "paint": {
-        "line-color": "#ffffff",
+        "line-color": "#ebebeb",
         "line-width": [
           "interpolate",
           [
@@ -2545,7 +2543,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -2563,7 +2561,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -2628,7 +2626,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -2698,7 +2696,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -2790,7 +2788,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -2847,7 +2845,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -2921,7 +2919,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -3054,7 +3052,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -3156,7 +3154,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -3251,7 +3249,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -3347,7 +3345,7 @@
         "text-letter-spacing": 0.3
       },
       "paint": {
-        "text-color": "#ffffff"
+        "text-color": "#7a7a7a"
       }
     },
     {
@@ -3439,7 +3437,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -3457,7 +3455,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -3522,7 +3520,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -3592,7 +3590,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -3684,7 +3682,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -3741,7 +3739,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -3815,7 +3813,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -3948,7 +3946,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4050,7 +4048,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4145,7 +4143,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4254,7 +4252,7 @@
         "text-max-width": 9
       },
       "paint": {
-        "text-color": "#7e9aa0",
+        "text-color": "#5c5c5c",
         "text-halo-width": 1.5
       }
     },
@@ -4355,7 +4353,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4373,7 +4371,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -4438,7 +4436,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -4508,7 +4506,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -4600,7 +4598,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4657,7 +4655,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4731,7 +4729,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -4864,7 +4862,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -4966,7 +4964,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5061,7 +5059,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5156,8 +5154,8 @@
         "text-size": 12
       },
       "paint": {
-        "text-color": "#91888b",
-        "text-halo-color": "#ffffff",
+        "text-color": "#999999",
+        "text-halo-color": "#e0e0e0",
         "text-halo-width": 2
       }
     },
@@ -5256,7 +5254,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5274,7 +5272,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -5339,7 +5337,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -5409,7 +5407,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -5501,7 +5499,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5558,7 +5556,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5632,7 +5630,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -5765,7 +5763,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5867,7 +5865,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -5962,7 +5960,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6072,7 +6070,7 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "#ffffff"
+        "text-color": "#7a7a7a"
       }
     },
     {
@@ -6165,7 +6163,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6183,7 +6181,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -6248,7 +6246,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -6318,7 +6316,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -6410,7 +6408,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6467,7 +6465,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6541,7 +6539,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -6674,7 +6672,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6776,7 +6774,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6871,7 +6869,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -6982,7 +6980,7 @@
         "text-max-width": 9
       },
       "paint": {
-        "text-color": "#ffffff"
+        "text-color": "#7a7a7a"
       }
     },
     {
@@ -7082,7 +7080,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7100,7 +7098,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -7165,7 +7163,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -7235,7 +7233,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -7327,7 +7325,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7384,7 +7382,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7458,7 +7456,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -7591,7 +7589,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7693,7 +7691,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7788,7 +7786,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7883,8 +7881,8 @@
         "text-size": 12
       },
       "paint": {
-        "text-color": "#938a8d",
-        "text-halo-color": "#ffffff",
+        "text-color": "#8f8f8f",
+        "text-halo-color": "#ebebeb",
         "text-halo-width": 2
       }
     },
@@ -7975,7 +7973,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -7993,7 +7991,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -8058,7 +8056,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -8128,7 +8126,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -8220,7 +8218,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -8277,7 +8275,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -8351,7 +8349,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -8484,7 +8482,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -8586,7 +8584,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -8681,7 +8679,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -8814,8 +8812,8 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "#8f8f8f",
-        "text-halo-color": "#e0e0e0",
+        "text-color": "#7a7a7a",
+        "text-halo-color": "#cccccc",
         "text-halo-width": 1.5
       }
     },
@@ -8912,7 +8910,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -8930,7 +8928,7 @@
                       "!",
                       [
                         "has",
-                        "name:en"
+                        "name:es"
                       ]
                     ],
                     [
@@ -8995,7 +8993,7 @@
                 "coalesce",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 [
                   "get",
@@ -9065,7 +9063,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -9157,7 +9155,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -9214,7 +9212,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -9288,7 +9286,7 @@
               "format",
               [
                 "get",
-                "name:en"
+                "name:es"
               ],
               {},
               "\n",
@@ -9421,7 +9419,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -9523,7 +9521,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -9618,7 +9616,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -9926,8 +9924,8 @@
         "text-radial-offset": 0.4
       },
       "paint": {
-        "text-color": "#5c5c5c",
-        "text-halo-color": "#e0e0e0",
+        "text-color": "#474747",
+        "text-halo-color": "#cccccc",
         "text-halo-width": 1
       }
     },
@@ -10028,7 +10026,7 @@
                     "coalesce",
                     [
                       "get",
-                      "name:en"
+                      "name:es"
                     ],
                     [
                       "get",
@@ -10046,7 +10044,7 @@
                         "!",
                         [
                           "has",
-                          "name:en"
+                          "name:es"
                         ]
                       ],
                       [
@@ -10111,7 +10109,7 @@
                   "coalesce",
                   [
                     "get",
-                    "name:en"
+                    "name:es"
                   ],
                   [
                     "get",
@@ -10181,7 +10179,7 @@
                 "format",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 {},
                 "\n",
@@ -10273,7 +10271,7 @@
                     "coalesce",
                     [
                       "get",
-                      "name:en"
+                      "name:es"
                     ],
                     [
                       "get",
@@ -10330,7 +10328,7 @@
                     "coalesce",
                     [
                       "get",
-                      "name:en"
+                      "name:es"
                     ],
                     [
                       "get",
@@ -10404,7 +10402,7 @@
                 "format",
                 [
                   "get",
-                  "name:en"
+                  "name:es"
                 ],
                 {},
                 "\n",
@@ -10537,7 +10535,7 @@
                     "coalesce",
                     [
                       "get",
-                      "name:en"
+                      "name:es"
                     ],
                     [
                       "get",
@@ -10639,7 +10637,7 @@
                     "coalesce",
                     [
                       "get",
-                      "name:en"
+                      "name:es"
                     ],
                     [
                       "get",
@@ -10734,7 +10732,7 @@
                     "coalesce",
                     [
                       "get",
-                      "name:en"
+                      "name:es"
                     ],
                     [
                       "get",
@@ -10848,8 +10846,8 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "#b3b3b3",
-        "text-halo-color": "#e0e0e0",
+        "text-color": "#999999",
+        "text-halo-color": "#cccccc",
         "text-halo-width": 2
       }
     },
@@ -10874,7 +10872,7 @@
             "coalesce",
             [
               "get",
-              "name:en"
+              "name:es"
             ],
             [
               "get",
@@ -10986,8 +10984,10 @@
         "text-transform": "uppercase"
       },
       "paint": {
-        "text-color": "#a3a3a3"
+        "text-color": "#858585"
       }
     }
-  ]
+  ],
+  "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v3/grayscale",
+  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf"
 }
