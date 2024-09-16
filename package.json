@@ -7,7 +7,9 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"upload-pmtile": "node scripts/upload2cloudflare.js",
+		"extract-pmtile": "bash pmtileExtraction"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -25,7 +27,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@aws-sdk/client-s3": "^3.651.1",
 		"@sveltejs/adapter-static": "^3.0.4",
+		"dotenv": "^16.4.5",
 		"maplibre-gl": "^4.6.0",
 		"pmtiles": "^3.0.7"
 	}

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pmtiles extract https://build.protomaps.com/20240915.pmtiles ./download-pmtiles/lima.pmtiles --bbox=-77.258428,-12.28306,-76.819766,-11.723761
