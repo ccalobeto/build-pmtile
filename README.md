@@ -1,5 +1,26 @@
 # Working with Protomaps
-## Create a tileset
+## Automated process to upload a tileset
+Do these three steps to use a pmtile in your project
+
+1. Extract the pmtile
+
+Edit the bounding box of the area to extact and execute
+```bash
+npm run extract-pmtile
+```
+
+2. Publish the pmtile in cloudfare
+
+Edit the name of the downloaded pmtile, edit the name of the bucket and execute
+```bash
+npm run upload-pmtile
+```
+
+3. Use the pmtile
+
+Go to *static/data/styles* and edit the `url` key with your recent pmtile in `Public R2.dev Bucket URL`. Finally in `src/routes/+page.svelte` edit the path of recent custom style.
+
+## Detail process to upload a tileset
 ### Getting Started
 Install [pmtiles](https://formulae.brew.sh/formula/pmtiles) 
 
@@ -7,14 +28,15 @@ Find the recently [OSM data](https://maps.protomaps.com/builds/)
 
 Use [klokantech](https://boundingbox.klokantech.com/) or [bboxfinder](http://bboxfinder.com/) to choose your bbox or extract them from the topojson layer called *bbox*. 
 
-Then extract the area of Perú for example.
+### Extract the tileset
+Extraction
 ```
 pmtiles extract https://build.protomaps.com/20240822.pmtiles peru.pmtiles --bbox=-81.32810348999999,-18.349025360999974,-68.65308935299998,-0.03860596899994562
 ```
 
-View recent pmtiles file in [maps](https://maps.protomaps.com).
+View your extracted pmtile in [maps](https://maps.protomaps.com).
 
-### Cloud Storage for PMTiles
+### Storage a PMTile
 Use a r2 bucket from cloudfare to storage the PM tile. Here we will use S3-compatible storage with a tool called `rclone`. There another way using **workers**.
 
 Create your r2 bucket called `geotiles` in UI cloudfare.
@@ -42,6 +64,7 @@ Upload your the tile to your bucket called `geotiles` in cloudfare.
 rclone copy peru.pmtiles r2demo:geotiles
 ```
 
+### Verify the uploaded file
 Go to cloudfare R2 UI to see the uploaded tile or look it from the command line . 
 ```
 rclone tree r2demo:
@@ -61,7 +84,8 @@ export AWS_SECRET_ACCESS_KEY=MY_SECRET
 pmtiles show peru.pmtiles --bucket=s3://geotiles\?endpoint=https://a7a8d6fc7e011ba0a1eb32259515cde6.r2.cloudflarestorage.com\&region=auto
 ```
 
-For security purposes go to your bucket settings *CORS Policy* and configure your `Allowed Origins`. Use this template.
+### Adding allowed domains
+To view allowed domains for security purposes, go to your bucket settings *CORS Policy* and configure your `Allowed Origins`. Use this template.
 ```bash
 {
   "AllowedOrigins": [
@@ -88,7 +112,7 @@ For security purposes go to your bucket settings *CORS Policy* and configure you
 Once your *pmtiles* file is uploaded, go to your bucket settings *Public access/R2.dev subdomain*, copy the `Public R2.dev Bucket URL` and use it as a basemap in your project.
 
 ### References
-1. [A script to create a bucket and upload a file with `@aws-sdk/client-s3` library.](https://www.youtube.com/watch?v=6Y_clyTpmAk)
+1. [A script to create a bucket and upload a file with `@aws-sdk/client-s3` library](https://www.youtube.com/watch?v=6Y_clyTpmAk) (done).
 
 ## Publishing a pmtile with MapLibre
 ### Basemaps for MapLibre
@@ -104,7 +128,7 @@ MapLibre styles are JSON documents.
 #### Use [maps](https://maps.protomaps.com/) tool
 Upload your pmtile into the tool and go to the address bar to get the zoom level and coordinates. You will use it as a initial calibration when you create an instance of the map with MapLibre. 
 
-Then select the `theme` and `get style json` to copy the clipboard.
+Then select the `theme` with `get style json` and copy the generated file to clipboard.
 
 #### Save the file
 Save the file in the path `static/data/styles/<filename>.json` and update the `url` key with the `Public R2.dev Bucket URL` which is the location of your pmtile in *cloudfare*.
