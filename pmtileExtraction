@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pmtiles extract https://build.protomaps.com/20240915.pmtiles ./download-pmtiles/lima.pmtiles --bbox=-77.258428,-12.28306,-76.819766,-11.723761
+pmtiles extract https://build.protomaps.com/20240915.pmtiles ./download-pmtiles/great_britain.pmtiles --bbox=-10.5495561932,49.9012338716,2.3388416758,61.049005704
