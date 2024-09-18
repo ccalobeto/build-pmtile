@@ -1,0 +1,23 @@
+{
+  "CORSRules": [
+    {
+      "AllowedOrigins": [
+        "http://localhost:5173",
+        "http://localhost:4173",
+        "https://ccalobeto.github.io"
+      ],
+      "AllowedMethods": [
+        "GET",
+        "HEAD"
+      ],
+      "AllowedHeaders": [
+        "range",
+        "if-match"
+      ],
+      "ExposeHeaders": [
+        "etag"
+      ],
+      "MaxAgeSeconds": 3000
+    }
+  ]
+}
