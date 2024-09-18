@@ -1,20 +1,21 @@
 # Working with Protomaps
-## Automated process to upload a tileset
+## Quick process to upload a tileset
 Do these three steps to use a pmtile in your project
 
 1. Extract the pmtile
 
-Edit the bounding box of the area to extact and execute
+Edit the bounding box of the area to extract. Use [klokantech](https://boundingbox.klokantech.com/) to select the area and then execute
 ```bash
 npm run extract-pmtile
 ```
 
 2. Publish the pmtile in cloudfare
 
-Edit the name of the downloaded pmtile, edit the name of the bucket and execute
+Edit the name of the downloaded pmtile, edit the name of the bucket and execute if your file is less than 2GiB
 ```bash
 npm run upload-pmtile
 ```
+If your file > 2GiB, use `rclone` as detail later.
 
 3. Use the pmtile
 
