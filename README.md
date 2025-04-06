@@ -1,7 +1,8 @@
 # About the Project
-This project builds and makes a custom style to publish a basemap based on [Protomaps](https://docs.protomaps.com/). 
+This project *builds a tileset of Perú* using [Protomaps](https://docs.protomaps.com/). Also teach you how to make a custom **maplibre style** to use it in as a basemap in your viz projects.
 
-## Quick process to upload a pmtile
+## A quick process to upload a pmtile
+To build a maplibre style, you need a tileset (pmtile). These are the steps:
 
 1. Extract the pmtile
 
@@ -134,10 +135,9 @@ Remembert to use a basemap you need:
 MapLibre styles are JSON documents.
 
 ### Setup a Maplibre style
-#### Use [maps](https://maps.protomaps.com/) tool
-- Upload your pmtile into the tool and go to the address bar to get the zoom level and coordinates. You will use it as a initial calibration when you create an instance of the map with MapLibre. 
+- Upload your pmtile into this [protomap tool](https://maps.protomaps.com/) and go to the address bar to get the zoom level and coordinates. You will use it as a initial calibration when you create an instance of the map with MapLibre. 
 
-- Then select the `theme` with `get style json` and copy the generated file to clipboard.
+- Then select the `flavor` (theme) click `get style json` button and copy the generated file to clipboard.
 
 - Save the copied into a file in the path `static/data/styles/<filename>.json`, then edit the `url` key with the `Public R2.dev Bucket URL` which is the location of your pmtile in *cloudfare*.
 
