@@ -2,7 +2,7 @@ import { CreateBucketCommand, S3Client, CreateMultipartUploadCommand, UploadPart
 import 'dotenv/config'
 import * as fs from "fs";
 
-const bucketName = "s3-demo-bucket"; // new bucket
+const bucketName = "geotiles"; // new bucket
 const filename = "peru.pmtiles"; // new filename
 const filePath = `./download-pmtiles/${filename}`;
 
