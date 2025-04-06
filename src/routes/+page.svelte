@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 
-	const style = `${base}/data/styles/grayscale.json`;
+	const style = `${base}/data/styles/pe-style.json`;
 
 	let protocol = new Protocol();
 	maplibregl.addProtocol('pmtiles', protocol.tile);
